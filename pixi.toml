@@ -1,0 +1,14 @@
+[workspace]
+authors = ["David Dorf <daviddorf2023@u.northwestern.edu>"]
+channels = ["conda-forge"]
+name = "visergps"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+gps_example = "python gps_example.py"
+
+[dependencies]
+python = ">=3.14.0,<3.15"
+viser = ">=0.2.23,<0.3"
+plotly = ">=6.3.1,<7"
